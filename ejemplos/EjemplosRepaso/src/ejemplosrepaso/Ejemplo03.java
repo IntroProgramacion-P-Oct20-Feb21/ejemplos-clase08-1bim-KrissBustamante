@@ -35,12 +35,17 @@ public class Ejemplo03 {
         }else{
             if (tipoRegion==2) {
                 region = "Región Costa";
+                
             }else{
                 if (tipoRegion==3) {
                     region = "Región Amazónica";
                 }else{
                     if (tipoRegion==4) {
                         region = "Región Insular";
+                        }else{
+                            region = "Error, no existe region";
+            
+                    
                     }
                 }
             }
@@ -48,5 +53,5 @@ public class Ejemplo03 {
         
         System.out.printf("Usted seleccionó: %s\n", region);
     }
-    
 }
+

@@ -13,7 +13,7 @@
     s
  */
 package ejemplosrepaso;
-
+import java.util.Scanner;
 /**
  *
  * @author reroes
@@ -21,9 +21,20 @@ package ejemplosrepaso;
 public class Ejemplo05 {
 
     public static void main(String[] args) {
+       Scanner entrada = new Scanner(System.in);
         boolean bandera = true;
+        String salida;
+         
+      
+                     
         while (bandera) {
-            System.out.println("Usted está en el ciclo");
+            System.out.println("Usted está en el ciclo\n"
+            +"Si desea salir del ciclo, digite si o s");
+            salida = entrada.nextLine();
+            salida = salida.toLowerCase();
+            
+           if(bandera = salida);
+               bandera = false;
         }
     }
 }
