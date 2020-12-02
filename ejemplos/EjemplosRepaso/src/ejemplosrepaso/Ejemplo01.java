@@ -18,9 +18,17 @@ public class Ejemplo01 {
     public static void main(String[] args) {
         // 
         Scanner entrada = new Scanner(System.in);
-        String ciudad = "Loja";
-        String pais = "Ecuador";
-        System.out.printf("%s%s", ciudad +"ciudad \n del pais:", pais+".");
+        String ciudad ;
+        String pais ;
+       
+        
+       System.out.println("Ingrese el nombre de la ciudad");
+       ciudad = entrada.nextLine();
+       System.out.println("Ingrese el nombre del pais");
+       pais = entrada.nextLine();
+       
+       
+        System.out.printf("%s, ciudad\n del país:\n\t%s.\n", ciudad , pais);
     }
     
 }
