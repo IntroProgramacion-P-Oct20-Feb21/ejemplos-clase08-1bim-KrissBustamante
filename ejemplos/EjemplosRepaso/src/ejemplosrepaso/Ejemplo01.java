@@ -7,7 +7,8 @@
         Ecuador.
  */
 package ejemplosrepaso;
-
+import java.util.Locale;
+import java.util.Scanner;
 
 public class Ejemplo01 {
 
@@ -17,9 +18,9 @@ public class Ejemplo01 {
     public static void main(String[] args) {
         // 
         Scanner entrada = new Scanner(System.in);
-        String ciudad;
-        String pais;
-        System.out.printf("%s%s", ciudad, pais);
+        String ciudad = "Loja";
+        String pais = "Ecuador";
+        System.out.printf("%s%s", ciudad +"ciudad \n del pais:", pais+".");
     }
     
 }
